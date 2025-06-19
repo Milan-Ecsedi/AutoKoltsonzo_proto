@@ -6,12 +6,8 @@ import datetime
 autoKolcsonzo1 = Autokolcsonzo("Pozsgás és társa kölcsönző DABAS")
 
 auto1 = Szemelyauto("123-DTR", "Volvo", 20000, 5)
-auto2 = Teherauto("518-KGB", "Renault", 20000, 100)
+auto2 = Teherauto("518-KGB", "Renault", 20000, 100, 2)
 auto3 = Szemelyauto("411-DDR", "Ford", 40000, 4)
-auto4 = Teherauto("114-UDP", "Volvo", 35000, 150)
-auto5 = Szemelyauto("837-DLX", "Shevrolette", 10000, 2)
-auto6 = Teherauto("912-VIE", "Mazda", 40000, 70)
-auto7 = Szemelyauto("800-LKS", "Kia", 5000, 2)
 autoKolcsonzo1.auto_hozzaad(auto1)
 autoKolcsonzo1.auto_hozzaad(auto2)
 autoKolcsonzo1.auto_hozzaad(auto3)
