@@ -1,4 +1,4 @@
-Autóköltsönző Project munka OOP tantárgyamból. Az egyszerűség és a hatékonyság érdekében konzolos felületet kapott
+Autóköcsönző Project munka OOP tantárgyamból. Az egyszerűség és a hatékonyság érdekében konzolos felületet kapott
 
 Konzol felület használata:
     /lista : ki listázza az összes autót (A bérlésnél/lemondásnál megadott sorszám megegyezik az itt ki listázott járművek sorrendjével)

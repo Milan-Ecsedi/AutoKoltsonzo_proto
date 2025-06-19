@@ -46,8 +46,8 @@ class Autokolcsonzo:
         #return [str(berles) for berles in self.berlesek]
     
     def get_auto(self):
-        for auto in self.autok:
-            print(str(auto))
+        for i, auto in enumerate(self.autok, start=1):
+            print(f"{i}. {auto}")
     
     def get_auto_as_object(self):
         return [auto for auto in self.autok]
