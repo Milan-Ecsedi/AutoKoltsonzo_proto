@@ -22,9 +22,11 @@ while True:
     parancs = input("Adja meg hogy mit szeretne csinálni:\n /lista : ki listázza az összes autót  \n /listab : kiadja a bérléseket\n /berles : egy autó lefoglalása egy adott napra \n /lemond : egy autó bérlés lemondása az adott napon \n /kilepes : ki lép a programból\n")
     
     if parancs == "/lista" :
+        print("Járműveink: \n")
         autoKolcsonzo1.get_auto()
 
     elif parancs =="/listab":
+        print("Bérlések: \n")
         print(autoKolcsonzo1.get_berlesek())
 
     elif parancs == "/berles":
